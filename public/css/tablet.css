@@ -1,0 +1,43 @@
+/* Tablet Styles (481px–1024px) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background: linear-gradient(135deg, #f0f8ff, #d0e0ff);
+}
+
+header {
+  text-align: center;
+  background: #004080;
+  color: white;
+  padding: 15px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+main {
+  padding: 15px;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  padding: 12px;
+  background: #004080;
+  color: white;
+  margin-top: 20px;
+}

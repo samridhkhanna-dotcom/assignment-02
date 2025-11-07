@@ -1,0 +1,45 @@
+/* Laptop/Desktop Styles (1025px and up) */
+body {
+  font-family: Georgia, serif;
+  margin: 30px auto;
+  max-width: 1000px;
+  background: linear-gradient(90deg, #ffffff, #f5f5f5);
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+nav a {
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+  margin-top: 30px;
+  border-radius: 8px;
+}
